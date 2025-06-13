@@ -1,0 +1,36 @@
+entity_validation_system/
+│
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── validation/
+│   │   ├── __init__.py
+│   │   ├── naming_convention.py
+│   │   ├── duplicate_detection.py
+│   │   └── report_generation.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── file_handling.py
+│   │   └── fuzzy_matching.py
+│   └── gui/
+│       ├── __init__.py
+│       └── interface.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_naming_convention.py
+│   ├── test_duplicate_detection.py
+│   └── test_report_generation.py
+│
+├── data/
+│   └── AuthoritativeEntityList.csv
+│
+├── docs/
+│   ├── user_manual.md
+│   └── developer_guide.md
+│
+├── config/
+│   └── validation_rules.yaml
+│
+├── requirements.txt
+└── README.md
